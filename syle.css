@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ul {
+list-style: none;
+
+
+}
+a {
+    text-decoration: none;
+    
+
+}
+.container {
+    
+    max-width: 1100px;
+    margin: auto;
+}
+
+
+
+/* utility classes*/
+.primary-text {
+    color: #fff;
+}
+
+
+.btn {
+display: inline-block;
+padding: 15px 30px;
+border: none;
+border-radius: 15px;
+}
+.btn-primary {
+    color: #fff;
+    border: 1px solid #fff;
+}
+.btn-primary:hover {
+background: #e4b95b;
+}
+
+/* header start */
+header {
+    height: 100vh;
+ 
+    background: url('./img/home_bg.jpeg') center center/cover no-repeat;
+    position: relative;
+
+
+}
+
+
+#navbar img {
+    width: 80px;
+    margin-left: 100px;
+}
+#navbar {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+}
+#navbar ul {
+    display: flex;
+    margin-right: 100px;
+}
+#navbar ul li a {
+    padding: 15px 20px;
+    color: #fff;
+   
+
+}
+#navbar ul li a:hover{
+    border-bottom: 2px solid #e4b95b;
+}  
+header .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+header .content h1 {
+    font-size: 40px;
+    color: #fff;
+
+}
+header .content p {
+    margin: 20px 0  40px;
+    color: #fff;
+
+
+}
+header::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgb(0,0,0,0.4);
+}
+
+header *{
+    z-index: 10;
+}
+
+
+
+/* header end */
+
+/* about start   */
+#about {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#about .title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#about h2 {
+    font-size: 40px;
+    color: red;
+    margin-bottom: 20px;
+    
+
+}
+
+/* about end   */
